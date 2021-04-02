@@ -3,15 +3,23 @@
 	<h1><em> Os Cinco Melhores Lugares do Brasil!!</em> </h1> 
 <body>
 
+<details>
+<summary>
 <h3>Lista Cidades</h3>
-<ul> 
-<li><a href="#Curitiba">Curitiba<a></li>
-<li><a href="#Porto de Galinhas">Porto de Galinhas<a></li>
-<li><a href="#Brasilia">Brasilia</a></li>
-<li><a href="#Fortaleza">Fortaleza</a></li>
-<li><a href="#São Paulo">Sao Paulo</a></li>
+</summary>
+<ul>
+<li><a>Curitiba<a></li>
+<li><a>Porto de Galinhas<a></li>
+<li><a>Brasilia</a></li>
+<li><a>Fortaleza</a></li>
+<li><a>Sao Paulo</a></li>
 </ul>
+</details>
 
+<details>
+<summary>
+<h5>População Cidades<h5>
+</summary>
 <table border="">
 <tr>
 <td><a id="Curitiba">Curitiba</a></td>
@@ -33,10 +41,9 @@
 <td><a id="Sao Paulo">Sao Paulo</a></td>
 <td>Possui com 12,3 milhões habitantes</td>
 </tr>
-
-
 <caption> População da cidade</caption>
 </table>
+</details>
  
 </body>
 </html>
