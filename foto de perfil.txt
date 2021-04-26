@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<link rel="stylesheet" type="text/css" href="Ativ4.css">
 <p>Pagina de:Guilherme Magalhães</p>
 <p> Esta é minha pagina na WEB </p> 
-<img src="C:\Users\gui_l\OneDrive\Documentos\ProgWeb\Imagem de perfil.JPG" alt="Foto de perfil"/>
+<img src="C:\Imagem de perfil.JPG" alt="Foto de perfil"/>
 <p> Esta é minha pagina na WEB </p> 
 <p> nome completo: Guilherme Magalhães </p> 
 <p> Cidade:Campinas </p> 
