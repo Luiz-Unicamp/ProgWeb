@@ -53,7 +53,7 @@ app.post('/curiosidades',
 
 app.put('/curiosidades/:id',
     (req, res) => {
-        const id = req.params.id - 1;
+        var id = req.params.id - 1;
         console.log(req.body.curiosidade);
         const curiosidade = req.body.curiosidade;
         curiosidades[id] = curiosidade;        
@@ -63,7 +63,7 @@ app.put('/curiosidades/:id',
 
 app.delete('/curiosidades/:id', 
     (req, res) => {
-        const id = req.params.id - 1;
+        var id = req.params.id - 1;
         delete curiosidades[id];
         res.send("Curiosidade removida!");
     }
