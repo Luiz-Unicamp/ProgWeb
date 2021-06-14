@@ -45,7 +45,7 @@ app.post('/curiosidades',
     (req, res) => {
         console.log(req.body.curiosidade);
         const curiosidade = req.body.curiosidade;
-        festas.push(curiosidade);
+        curiosidades.push(curiosidade);
         res.send("Curiosidade adicionada!")
     }
 );
@@ -55,7 +55,7 @@ app.put('/curiosidades/:id',
         const id = req.params.id - 1;
         console.log(req.body.curiosidade);
         const curiosidade = req.body.curiosidade;
-        festas[id] = curiosidade;        
+        curiosidades[id] = curiosidade;        
         res.send("Curiosidade atualizada!")
     }
 );
