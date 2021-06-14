@@ -27,8 +27,7 @@ var curiosidades = [
 
 app.get('/curiosidades', function(req, res){
         //res.send(mensagens);
-        res.send(curiosidades);
-        // res.send(curiosidades.filter(Boolean));
+        res.send(curiosidades.filter(Boolean));
     } 
 );
 app.get('/curiosidades/:id', function(req, res){
