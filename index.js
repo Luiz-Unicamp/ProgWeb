@@ -17,7 +17,7 @@ app.use(express.json());
         res.send("Hello denovo!");
  });
 
-const curiosidades = [
+var curiosidades = [
     {tipo: "Tocantins é o Estado mais novo do Brasil", detalhe:"Até 30 anos atrás Tocantins não existia, bem como fazia parte do Estado de Goiás, portanto, criado juntamente a constituição de 1988."},
     {tipo: "Maior comunidade Japonesa fora do Japão", detalhe:"Uma das mais interessantes curiosidades sobre o Brasil é que o nosso país abriga a maior comunidade japonesa fora do Japão. Assim como só em São Paulo, moram mais de 600 mil japoneses."},
     {tipo: "Línguas faladas no Brasil", detalhe:"Antes do descobrimento do Brasil, as línguas faladas giravam em torno de mil. Porém atualmente, por mais que o Português seja a língua oficial, cerca de 180 ainda sobrevivem, porém apenas 11 são faladas por pouco mais de 5 mil pessoas."},
