@@ -27,7 +27,8 @@ var curiosidades = [
 
 app.get('/curiosidades', function(req, res){
         //res.send(mensagens);
-        res.send(curiosidades.filter(Boolean));
+        res.send(curiosidades);
+        // res.send(curiosidades.filter(Boolean));
     } 
 );
 app.get('/curiosidades/:id', function(req, res){
@@ -45,7 +46,7 @@ app.get('/curiosidades/:id', function(req, res){
 app.post('/curiosidades', 
     (req, res) => {
         console.log(req.body.curiosidade);
-        const curiosidade = req.body.curiosidade;
+        const curiosidade = req.body;
         curiosidades.push(curiosidade);
         res.send("Curiosidade adicionada!")
     }
@@ -55,7 +56,7 @@ app.put('/curiosidades/:id',
     (req, res) => {
         var id = req.params.id - 1;
         console.log(req.body.curiosidade);
-        const curiosidade = req.body.curiosidade;
+        const curiosidade = req.body;
         curiosidades[id] = curiosidade;        
         res.send("Curiosidade atualizada!")
     }
